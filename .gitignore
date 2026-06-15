@@ -1,0 +1,10 @@
+*.ipynb
+.ipynb_checkpoints/
+data/
+outputs/
+.idea/
+*.pth
+venv/
+__pycache__/
+*.pyc
+.DS_Store
