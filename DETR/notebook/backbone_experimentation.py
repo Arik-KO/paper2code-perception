@@ -34,7 +34,7 @@ class DetrBackbone(nn.Module):
         x = self.backbone.layer4(x)
         backbone_logger.debug(f"After layer4:  {x.shape}")
         h = self.conv(x)
-        backbone_logger.debug(f"The final output:  {x.shape}")
+        backbone_logger.debug(f"The final output:  {h.shape}")
         
         return h
 
